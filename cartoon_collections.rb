@@ -40,9 +40,10 @@ def find_the_cheese(cheese_types)
     
   if cheese_types.include?(cheese)
      return "#{cheese}"
-    else 
-    return nil
+    
    end
   end
+  else 
+    return nil
 end
  find_the_cheese(cheese_types)
