@@ -40,7 +40,7 @@ def find_the_cheese(cheese_types)
     cheese_types.find do |cheese| 
     if cheese_types.include?(cheese)
     else 
-    return "nil"
+    return nil
    end
   end 
 end
