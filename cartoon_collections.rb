@@ -40,7 +40,7 @@ def find_the_cheese(cheese_types)
     
   puts cheese_types.include?(cheese)
       "#{cheese}"
-   if !cheese_types.length == cheese
+   if cheese_types.length == cheese
     return nil
    end
   end
