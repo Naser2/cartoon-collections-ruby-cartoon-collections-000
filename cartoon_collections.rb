@@ -38,9 +38,9 @@ long_planeteer_calls(planeteer_calls)
 def find_the_cheese(cheese_types)
     cheese_types.find do |cheese| cheese_types.include?(cheese)
     
-    if !cheese_types.include?(cheese)
-         return nil
-   end
+  #   if !cheese_types.include?(cheese)
+  #       return nil
+  # end
   end 
 end
  find_the_cheese(cheese_types)
