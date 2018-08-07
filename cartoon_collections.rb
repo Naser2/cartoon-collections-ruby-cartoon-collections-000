@@ -41,9 +41,8 @@ s
     if cheese_types.include?(cheese)
      return true
    end
-    else !cheese_types.include?(cheese)
+    elsif !cheese_types.include?(cheese)
      return nil
-
   end 
 end
  find_the_cheese(cheese_types)
