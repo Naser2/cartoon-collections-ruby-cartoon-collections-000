@@ -40,4 +40,4 @@ def find_the_cheese(cheese_types)
       "#{cheese}"
   end
 end
- find_the_cheese(cheese_types)
+ find_the_cheese(["cheddar", "gouda", "camembert"])
