@@ -41,7 +41,7 @@ s
     if cheese_types.include?(cheese)
      return true
     else !cheese_types.include?(cheese)
-    return nil
+     return nil
    end
   end 
 end
