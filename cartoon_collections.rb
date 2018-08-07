@@ -42,8 +42,8 @@ def find_the_cheese(cheese_types)
      return "#{cheese}"
     
    end
-  end
-  else 
+   else 
     return nil
+  end
 end
  find_the_cheese(cheese_types)
