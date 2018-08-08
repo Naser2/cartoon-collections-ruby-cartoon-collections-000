@@ -38,7 +38,7 @@ cheese_types = ["Banana","cheddar", "gouda", "camembert"]
 def find_the_cheese(cheese_types)
     cheese_types.find do |cheese|
       if cheese_types.include?(cheese)
-      "#{cheese}"
+      puts "#{cheese}"
     else 
       return nil
   end
