@@ -51,4 +51,4 @@ cheese_types = ["cheddar", "camembert"]
   end
 end
 
- find_the_cheese(["cheddar", "gouda", "camembert"])
+ find_the_cheese(["banana", "cheddar", "gouda", "camembert"])
